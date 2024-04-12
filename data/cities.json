@@ -35,6 +35,42 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Silver Lake-Fort Rock",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-04-12T05:46:59.972Z",
+      "notes": "",
+      "position": {
+        "lat": "43.11702412135048",
+        "lng": "-120.08056640625001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Ketchum",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-04-12T05:53:11.337Z",
+      "notes": "pea;pea",
+      "position": {
+        "lat": "43.70759350405296",
+        "lng": "-114.14794921875001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Prads-Haute-Bleone",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-04-12T05:53:27.363Z",
+      "notes": "hello",
+      "position": {
+        "lat": "44.15068115978094",
+        "lng": "6.481933593750001"
+      },
+      "id": 98443200
     }
   ]
 }

@@ -19,11 +19,31 @@ export default function CityItem({ city }) {
           id === currentCity.id ? styles["CityItem--active"] : ""
         }`}
         to={`${id}?lat=${position.lat}&lng=${position.lng}`}
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+          margin: "10px",
+          textDecoration: "none",
+          color: "inherit",
+        }}
       >
-        <span className={styles.emoji}>{emoji}</span>
-        <h3 className={styles.name}>{cityName}</h3>
-        <time className={styles.date}>({formatDate(date)})</time>
-        <button className={styles.deleteBtn}>&times;</button>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            gap: 10,
+          }}
+        >
+          <span className={styles.emoji}>{emoji}</span>
+          <h3 className={styles.name}>{cityName}</h3>
+        </div>
+        <div>
+          <time className={styles.date}>({formatDate(date)})</time>
+          <button className={styles.deleteBtn}>&times;</button>
+        </div>
       </Link>
     </li>
   );
